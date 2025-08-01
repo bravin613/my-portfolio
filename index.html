@@ -1,11 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bravin Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bravin Portfolio</title>
+
+  <!-- Google Font: Jost -->
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- favicon-->
+   <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    
+
+  <!-- Responsive Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+        <img src="assets/images/favicon.ico" alt="">
+    </div>
+
+    <!-- Hidden checkbox toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+ <!-- Hero Section -->
+<header class="hero" id="hero">
+  <div class="hero-content">
+    <h1>Hi 👋, I'm <span>Bravin Musali</span></h1>
+    <h2>Passionate Fullstack Developer from Kenya.</h2>
+    <p>
+      Dedicated to building scalable web applications using JavaScript, PHP,next.js, React, and Laravel.
+    </p>
+    <div class="hero-buttons">
+      <a href="#projects" class="cta-btn">View My Work</a>
+      <a href="assets/images/bravo.jpg" class="cta-btn" download>Download CV</a>
+    </div>
+  </div>
+  <div class="hero-image">
+    <img src="assets/images/bravo.png" alt="Bravin Musali Profile Image" />
+  </div>
+  <!-- Tech Stack Sidebar -->
+<div class="tech-stack">
+  <ul>
+    <li>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript Logo" />
+    </li>
+    <br>
+    <li>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo" />
+    </li>
+    <br>
+    <li>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js Logo" />
+    </li>
+    <br>
+    <li>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP Logo" />
+    </li>
+    <br>
+    <li>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1024px-Laravel.svg.png" alt="Laravel Logo" />
+    </li>
+    <br>
+    <li>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL Logo" />
+    </li>
+  </ul>
+</div>
+
+</header>
+
+
+  <!-- sections -->
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="about-content">
+    <h2 class="fade-in-up">About Me</h2>
+    <p class="fade-in-up delay-1">
+      <strong>I’m </strong>, a professional fullstack developer from Kenya dedicated to creating efficient and scalable web solutions. My passion lies in transforming ideas into reliable applications that drive real impact.
+    </p>
+    <p class="fade-in-up delay-2">
+      In 2023, I earned the <strong>Meta Fullstack Developer Certification</strong> via Coursera, which enhanced my skills in modern web development and problem solving.
+    </p>
+    <p class="fade-in-up delay-3">
+      I am currently pursuing a <strong>Bachelor’s degree in Computer Science</strong>, where I continue to strengthen my foundation and apply academic insights to practical projects.
+    </p>
+    <p class="fade-in-up delay-4">
+      I believe that the best work happens when focus meets creativity — often fueled by a good cup of coffee ☕. I am eager to collaborate with teams that value innovation and quality.
+    </p>
+    <a href="#contact" class="about-btn fade-in-up delay-5">Let’s Connect</a>
+  </div>
+
+  <div class="about-image fade-in-right">
+    <img src="assets/images/bravo.png" alt="Bravin Musali" />
+  </div>
+</section>
+
+
+
+
+
+  <section id="education"></section>
+  <section id="projects"></section>
+  <section id="contact"></section>
 </body>
 </html>
